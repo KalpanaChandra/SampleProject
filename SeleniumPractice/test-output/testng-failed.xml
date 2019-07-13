@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Practice Test(failed)">
+    <classes>
+      <class name="LearnTestNG.WebElementsPrac">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="BasicAuth"/>
+        </methods>
+      </class> <!-- LearnTestNG.WebElementsPrac -->
+    </classes>
+  </test> <!-- Practice Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
